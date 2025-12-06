@@ -1,0 +1,22 @@
+.chat-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.input-box:focus {
+  outline: 1px solid #b6b3b3;
+  transition: outline 0.3s ease-in-out;
+  border: none;
+}
+.send:hover {
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out;
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+.attach:hover {
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out;
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}

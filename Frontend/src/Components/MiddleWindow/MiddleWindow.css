@@ -1,0 +1,63 @@
+.middle-window {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  transition: right 1s ease-in-out, left 1s ease-in-out;
+}
+.conversation-container {
+  transition: right 1s ease-in-out, left 1s ease-in-out;
+  background-color: white;
+  padding: 20px;
+  margin-right: 40px;
+  border-radius: 14px;
+  border-width: 1px;
+  border-color: #000000;
+  height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+  width: 92%;
+}
+.input-container {
+  height: 100px;
+  margin-top: 20px;
+  position: relative;
+}
+.input-container button {
+  background-color: rgba(255, 255, 255, 0);
+  width: 50px;
+  border-radius: 14px;
+  position: absolute;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+}
+.input-container button img {
+  width: 30px;
+  height: 30px;
+}
+.input-container input {
+  height: 50px;
+  width: 97%;
+  border-radius: 14px;
+  border-width: 0px;
+  padding-left: 60px;
+  box-sizing: border-box;
+  color: black;
+}
+.input-container input ::placeholder {
+  font-size: 10px;
+}
+.input-container input :focus {
+  outline: none;
+  border: none;
+}
+.input-container .send {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+}
